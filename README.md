@@ -1,5 +1,6 @@
 # React + Vite
 
+## This is a Number game project which takes input from user and tells user to guess the number by giving feedbacks...
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
