@@ -1,0 +1,179 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #141e30, #243b55);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  padding: 30px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
+              0 -4px 8px rgba(0, 0, 0, 0.1), 
+              4px 0 8px rgba(0, 0, 0, 0.1), 
+              -4px 0 8px rgba(0, 0, 0, 0.1);
+}
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.input-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.input-section label {
+  font-size: 1.6rem;
+  margin-bottom: 0.6rem;
+}
+.btn-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.btn-section button {
+  padding: 10px 67px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  border: none;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+button:hover{
+  background-color: #07192e;
+}
+.reset {
+  background-color: tomato;
+}
+.check {
+  background-color: cornflowerblue;
+}
+.input {
+  width: 370px;
+  font-size: 0.9rem;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  background-color: lightblue;
+  outline: none;
+}
+/* .result-section {
+
+} */
+.result {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+.result h4 {
+  font-size: 20px;
+  text-align: center;
+}
+.result h3 {
+  font-size: 24px;
+  text-align: center;
+}
+.result p {
+  font-size: 6rem;
+}
+.red {
+  color: tomato;
+  font-size: 2rem;
+}
+.green {
+  color: mediumseagreen;
+  font-size: 1.8rem;
+}
+
+
+@media screen and (max-width: 468px) {
+  h1{
+    font-size: 29px;
+  }
+  .app {
+    gap: 20px;
+    padding: 18px;
+  }
+  .input-section label {
+    font-size: 1.4rem;
+  }
+  .input {
+    width: 300px;
+  }
+  .btn-section button {
+    padding: 10px 50px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  h1{
+    font-size: 26px;
+  }
+  .app {
+    gap: 15px;
+    padding: 15px;
+  }
+  .input-section label {
+    font-size: 1.2rem;
+  }
+  .result h4 {
+    font-size: 17px;
+  }
+  .result h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+}
+
+
+@media screen and (max-width: 325px) {
+  h1{
+    font-size: 20px;
+  }
+  .app {
+    gap: 13px;
+    padding: 13px;
+  }
+  .input {
+    width: 220px;
+  }
+  .input-section label {
+    font-size: 1rem;
+  }
+  .btn-section button {
+    padding: 10px 30px;
+  }
+  .result h4 {
+    font-size: 15px;
+  }
+  .result h3 {
+    font-size: 16px;
+    text-align: center;
+  }
+  
+}
+
+
+
+
