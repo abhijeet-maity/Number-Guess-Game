@@ -98,6 +98,7 @@ function App() {
             <div className='result'>
               <h4><span className='red'>Wrong Guess!!!</span></h4>
               <h4>Number is smaller than actual number</h4>
+              <h4>Try again...</h4>
               <p>{emoji}</p>
             </div>
             
@@ -106,6 +107,7 @@ function App() {
             <div className='result'>
               <h4><span className='red'>Wrong Guess!!!</span></h4>
               <h4>Number is larger than actual number</h4>
+              <h4>Try again...</h4>
               <p>{emoji}</p>
             </div>
             
